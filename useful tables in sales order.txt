@@ -1,0 +1,124 @@
+useful tables for sales order
+
+
+
+
+select * from hz_cust_site_uses_all;
+
+
+
+select * from hz_party_sites;
+
+
+select * from hz_cust_acct_sites_all ;
+
+
+
+select * from oe_order_headers_all where org_id=204 order by creation_date desc;
+
+
+select * from qp_list_headers_tl;
+
+
+
+
+
+
+select * from ra_terms_tl;
+
+
+
+
+select * from oe_headers_iface_all order by ordered_date desc;
+
+
+select return_reason_code  from oe_headers_iface_all order by ordered_date desc ;
+
+
+select * from FND_DOCUMENT_SEQUENCES ;
+
+
+select * from hr_operating_units;
+
+
+select * from ra_salesreps_all;
+
+
+select * from oe_price_adjs_interface_all;
+
+
+select * from oe_processing_msgs;
+
+
+select * from oe_lines_interface;
+
+
+select * from ra_rules;
+
+
+
+
+
+
+
+select * from org_organization_definitions;
+
+
+SELECT * FROM oe_customer_info_iface_all;
+
+
+select customer_item_name,delivery_lead_time,Earliest_acceptable_date,Freight_terms  from oe_lines_iface_all ;
+
+
+
+
+select * from oe_processing_msgs_vl;
+
+
+select ORIG_SYS_DOCUMENT_REF from oe_order_headers_all;
+
+
+
+select * from oe_actions_iface_all;
+
+
+select * from ra_customer_interface_all;
+
+
+select * from oe_actions_iface_all;
+
+
+
+select * from oe_order_cust_iface_all;
+
+
+
+select * from oe_price_adjs_history;
+
+
+
+select * from oe_price_atts_iface_all;
+
+
+select  * from hz_parties;
+
+
+select * from hz_locations;
+
+
+select * from ra_customers where customer_name like 'A%';
+
+
+select * from oe_order_sources;
+
+
+
+select * from oe_transaction_types_tl;
+
+
+
+
+select * from ra_terms_tl; 
+
+
+
