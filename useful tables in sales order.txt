@@ -122,3 +122,4 @@ select * from ra_terms_tl;
 
 
 
+select * from hz_party_sites;
